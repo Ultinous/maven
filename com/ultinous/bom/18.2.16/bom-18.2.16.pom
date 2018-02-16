@@ -317,7 +317,7 @@
       <dependency>
         <groupId>org.glassfish.jersey.media</groupId>
         <artifactId>jersey-media-multipart</artifactId>
-        <version>${}</version>
+        <version>${org.glassfish.jersey.version}</version>
       </dependency>
 
       <dependency>
