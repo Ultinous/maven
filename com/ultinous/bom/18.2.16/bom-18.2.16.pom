@@ -395,15 +395,13 @@
         <version>${org.javassist.javassist.version}</version>
       </dependency>
 
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.junit.version}</version>
+      </dependency>
 
       <!-- TEST -->
-
-      <!--<dependency>-->
-      <!--<groupId>junit</groupId>-->
-      <!--<artifactId>junit</artifactId>-->
-      <!--<version>${junit.junit.version}</version>-->
-      <!--<scope>test</scope>-->
-      <!--</dependency>-->
 
       <dependency>
         <groupId>org.mockito</groupId>
@@ -631,13 +629,6 @@
           <useUnlimitedThreads>true</useUnlimitedThreads>
           <argLine>-Xmx1g</argLine>
         </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.apache.maven.surefire</groupId>
-            <artifactId>surefire-junit47</artifactId>
-            <version>2.20.1</version>
-          </dependency>
-        </dependencies>
       </plugin>
 
       <plugin>
