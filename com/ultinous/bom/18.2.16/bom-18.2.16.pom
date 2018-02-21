@@ -631,13 +631,6 @@
           <useUnlimitedThreads>true</useUnlimitedThreads>
           <argLine>-Xmx1g</argLine>
         </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.junit.version}</version>
-          </dependency>
-        </dependencies>
       </plugin>
 
       <plugin>
