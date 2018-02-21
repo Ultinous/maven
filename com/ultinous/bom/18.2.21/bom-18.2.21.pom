@@ -6,7 +6,7 @@
   <groupId>com.ultinous</groupId>
   <artifactId>bom</artifactId>
   <packaging>pom</packaging>
-  <version>18.2.16</version>
+  <version>18.2.21</version>
   <url>https://github.com/Ultinous/maven.git</url>
 
   <properties>
@@ -395,13 +395,15 @@
         <version>${org.javassist.javassist.version}</version>
       </dependency>
 
+
+      <!-- TEST -->
+
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>${junit.junit.version}</version>
+        <scope>test</scope>
       </dependency>
-
-      <!-- TEST -->
 
       <dependency>
         <groupId>org.mockito</groupId>
