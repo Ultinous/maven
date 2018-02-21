@@ -7,7 +7,7 @@
   <artifactId>bom</artifactId>
   <packaging>pom</packaging>
   <version>18.2.16</version>
-  <url>https://github.com/Ultinous/maven</url>
+  <url>https://github.com/Ultinous/maven.git</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -631,6 +631,13 @@
           <useUnlimitedThreads>true</useUnlimitedThreads>
           <argLine>-Xmx1g</argLine>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.junit.version}</version>
+          </dependency>
+        </dependencies>
       </plugin>
 
       <plugin>
