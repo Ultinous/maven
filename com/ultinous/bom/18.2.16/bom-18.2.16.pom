@@ -631,6 +631,13 @@
           <useUnlimitedThreads>true</useUnlimitedThreads>
           <argLine>-Xmx1g</argLine>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.surefire</groupId>
+            <artifactId>surefire-junit47</artifactId>
+            <version>2.20.1</version>
+          </dependency>
+        </dependencies>
       </plugin>
 
       <plugin>
